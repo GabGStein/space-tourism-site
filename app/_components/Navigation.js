@@ -9,41 +9,51 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="hidden md:block text-xl backdrop-blur-md">
-        <ul className="flex gap-16 items-center">
-          <li>
-            <Link href="/" className="">
-              <strong>00</strong> HOME
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/destination"
-              className="hover:text-accent-400 transition-colors"
-            >
-              <strong>01</strong> DESTINATION
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/crew"
-              className="hover:text-accent-400 transition-colors flex items-center gap-4"
-            >
-              <strong>02</strong> CREW
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/technology"
-              className="hover:text-accent-400 transition-colors flex items-center gap-4"
-            >
-              <strong>03</strong> TECHNOLOGY
-            </Link>
-          </li>
-        </ul>
+      <nav className=" text-xl h-full hidden md:flex md:items-center">
+        <div className="h-full w-full flex items-center justify-between md:backdrop-blur-3xl md:backdrop-brightness-180 xl:backdrop-brightness-120 ">
+          <ul className="flex gap-12 items-center text-base font-barlow-condensed px-12">
+            <li>
+              <Link href="/" className="">
+                <span>
+                  <strong>00</strong> HOME
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/destination"
+                className="hover:text-accent-400 transition-colors"
+              >
+                <span>
+                  <strong>01</strong> DESTINATION
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/crew"
+                className="hover:text-accent-400 transition-colors flex items-center gap-4"
+              >
+                <span>
+                  <strong>02</strong> CREW
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/technology"
+                className="hover:text-accent-400 transition-colors flex items-center gap-4"
+              >
+                <span>
+                  <strong>03</strong> TECHNOLOGY
+                </span>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
 
-      <nav className="md:hidden relative z-20">
+      <nav className="md:hidden relative z-20 pr-10">
         <Image
           src="/shared/icon-hamburger.svg"
           width={24}
