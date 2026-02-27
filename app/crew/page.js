@@ -70,15 +70,17 @@ function Page() {
               </div>
             </main>
 
-        <div className="relative w-64 h-72 mx-auto md:w-96 md:h-110 lg:w-[540px] lg:h-[680px]">
-          <Image
-            src={crewMember[curCrew].images.png}
-            fill
-            alt={crewMember[curCrew].name}
-            className="object-contain [mask-image:linear-gradient(to_top,transparent,black_20%)]"
-          />
-        </div>
-      </div>
+            <div className="relative w-64 h-72 mx-auto md:w-96 md:h-110 lg:w-[540px] lg:h-[680px]">
+              <Image
+                src={crewMember[curCrew].images.png}
+                fill
+                alt={crewMember[curCrew].name}
+                className="object-contain [mask-image:linear-gradient(to_top,transparent,black_20%)]"
+              />
+            </div>
+          </div>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
