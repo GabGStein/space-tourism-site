@@ -1,6 +1,7 @@
 import { Bellefair, Barlow, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
+import { AnimatePresence, motion } from "framer-motion";
 
 const getBellefair = Bellefair({
   variable: "--font-bellefair",
