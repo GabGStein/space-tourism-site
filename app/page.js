@@ -22,7 +22,9 @@ export default function Home() {
         <h3 className="text-[16px] text-blue-300 font-barlow-condensed md:text-[28px] uppercase">
           So, you want to travel to
         </h3>
-        <h1 className="text-[80px] md:text-[100px] uppercase">Space</h1>
+        <h1 className="text-[80px] md:text-[100px] text-white uppercase">
+          Space
+        </h1>
         <p className="text-[15px] text-blue-300 font-barlow md:text-[16px]">
           Let&apos;s face it; if you want to go to space, you might as well
           genuinely go to outer space and not hover kind of on the edge of it.

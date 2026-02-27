@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${getBellefair.variable} ${getBarlow.variable}
-    ${barlowCondensed.variable} antialiased flex flex-col `}
+    ${barlowCondensed.variable} antialiased min-h-screen flex flex-col max-w-[1440px] mx-auto`}
       >
         <Header />
         {children}

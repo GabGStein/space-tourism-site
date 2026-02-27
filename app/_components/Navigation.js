@@ -11,8 +11,8 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="hidden md:flex md:text-lg xl:text-xl backdrop-blur-md px-10 bg-white/10 h-full md:justify-end md:max-w-4xl transition-all duration-400">
-        <ul className="flex gap-16 items-center">
+      <nav className="hidden md:flex md:text-lg xl:text-xl backdrop-blur-md px-10 bg-white/10 h-full md:justify-end md:max-w-[670px] transition-all duration-400 xl:max-w-4xl">
+        <ul className="flex md:gap-12 items-center">
           <li className="relative h-full flex items-center group">
             <Link href="/" className="gap-2 h-full flex items-center px-4">
               <strong>00</strong> HOME
