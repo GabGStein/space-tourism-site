@@ -11,10 +11,10 @@ function Page() {
   console.log(crewMember[crew].images.png);
 
   return (
-    <div className="h-screen w-full">
+    <div className="min-h-screen h-fit w-full">
       <picture className="absolute inset-0 -z-10">
         <source
-          media="(min-width: 1440px)"
+          media="(min-width: 1280px)"
           srcSet="/crew/background-crew-desktop.jpg"
         />
         <source
@@ -24,7 +24,7 @@ function Page() {
         <img
           src="/crew/background-crew-mobile.jpg"
           alt="background-image"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-fit object-cover"
         />
       </picture>
 
@@ -37,7 +37,7 @@ function Page() {
         </h1>
       </div>
 
-      <div className="lg:flex lg:max-w-[1110px] mx-auto">
+      <div className="xl:flex xl:max-w-[1110px] mx-auto">
         <main className="text-white min-w-[300px] mx-auto flex flex-col items-center px-8 md:items-start md:mt-4 lg:max-w-[1110px] lg:mt-32">
           <div className="py-8 text-center md:mt-4 md:mx-auto lg:text-start lg:ml-0 lg:mt-32">
             <p className="text-xl md:text-2xl opacity-50 tracking-wider uppercase">

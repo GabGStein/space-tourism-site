@@ -11,7 +11,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="hidden md:flex md:text-lg lg:text-xl backdrop-blur-md px-10 bg-white/10 h-full md:justify-end md:max-w-4xl transition-all duration-400">
+      <nav className="hidden md:flex md:text-lg xl:text-xl backdrop-blur-md px-10 bg-white/10 h-full md:justify-end md:max-w-4xl transition-all duration-400">
         <ul className="flex gap-16 items-center">
           <li className="relative h-full flex items-center group">
             <Link href="/" className="gap-2 h-full flex items-center px-4">
@@ -87,7 +87,7 @@ export default function Navigation() {
         </ul>
       </nav>
 
-      <nav className="md:hidden right-0 z-20 mr-8">
+      <nav className="md:hidden right-0 z-20 pr-8">
         <Image
           src="/shared/icon-hamburger.svg"
           width={24}

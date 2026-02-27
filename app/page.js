@@ -1,7 +1,3 @@
-// const bgMobile = "@/public/home/background-home-mobile.jpg";
-// const bgTablet = "@/public/home/background-home-tablet.jpg";
-// const bgDesktop = "@/public/home/background-home-desktop.jpg";
-
 import Link from "next/link";
 
 export default function Home() {
@@ -23,10 +19,10 @@ export default function Home() {
         />
       </picture>
       <div className="p-6 flex flex-col items-center justify-between gap-2 mt-24">
-        <h3 className="text-[16px] text-blue-300 font-barlow-condensed md:text-[28px]">
-          SO, YOU WANT TO TRAVEL TO
+        <h3 className="text-[16px] text-blue-300 font-barlow-condensed md:text-[28px] uppercase">
+          So, you want to travel to
         </h3>
-        <h1 className="text-[80px] md:text-[100px] ">SPACE</h1>
+        <h1 className="text-[80px] md:text-[100px] uppercase">Space</h1>
         <p className="text-[15px] text-blue-300 font-barlow md:text-[16px]">
           Let&apos;s face it; if you want to go to space, you might as well
           genuinely go to outer space and not hover kind of on the edge of it.
