@@ -22,7 +22,7 @@ function Page() {
         <img
           src="/crew/background-crew-mobile.jpg"
           alt="background-image"
-          className="absolute inset-0 w-full h-fit object-cover"
+          className="absolute inset-0 w-full h-full object-cover"
         />
       </picture>
 
