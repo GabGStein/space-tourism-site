@@ -25,6 +25,9 @@ export const metadata = {
     template: "%s | Space Tourism",
     default: "Welcome | Space Tourism",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
   description: "Explore the space",
 };
 
